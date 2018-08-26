@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Coda|Open+Sans');
+
+.app {
+    font: 400 1rem/1 'Open Sans', sans-serif;
+}
+
+.app,
+.app__content {
+    min-height: 100%;
+    width: 100%;
+}
+
+.app__content__sidebar {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.app__content__sidebar__name {
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.app__content__sidebar__filter {
+    float: right;
+}
+
+.app__content__section__map {
+    height: calc(100% - 3.5rem) !important;
+}
+
+.-hide {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+}
